@@ -22,19 +22,19 @@ function verificar() {
                 res.innerHTML = `Detectamos uma criança de ${idade} anos.`
             }
             else if(idade > 9 && idade < 15) {
-                imag.src = 'menino.jpg'
+                imag.src = 'imagens/menino.jpg'
                 res.innerHTML = `Detectamos um  de ${idade} anos.`
             }
             else if(idade > 14 && idade < 25) {
-                imag.src = 'jovem-homem.jpg'
+                imag.src = 'imagens/jovem-homem.jpg'
                 res.innerHTML = `Jovem de ${idade} anos.`
             }
             else if(idade > 24 && idade < 60) {
-                imag.src = 'homem.jpg'
+                imag.src = 'imagens/homem.jpg'
                 res.innerHTML = `${genero} de ${idade} anos.`
             }
             else {
-                imag.src = 'idoso.jpg'
+                imag.src = 'imagens/idoso.jpg'
                 res.innerHTML = `${genero} de ${idade} anos.`
             }
         }
@@ -44,23 +44,23 @@ function verificar() {
             genero = 'Mulher'
             
             if(idade >= 0 && idade < 10) {
-                imag.src = 'criança-menina.jpg'
+                imag.src = 'imagens/criança-menina.jpg'
                 res.innerHTML = `Criança de ${idade} anos.`
             }
             else if(idade > 9 && idade < 15) {
-                imag.src = 'menina.jpg'
+                imag.src = 'imagens/menina.jpg'
                 res.innerHTML = `Menina de ${idade} anos.`
             }
             else if(idade > 14 && idade < 25) {
-                imag.src = 'jovem-mulher.jpg'
+                imag.src = 'imagens/jovem-mulher.jpg'
                 res.innerHTML = `Jovem de ${idade} anos.`
             }
             else if(idade > 24 && idade < 60) {
-                imag.src = 'mulher (2).jpg'
+                imag.src = 'imagens/mulher (2).jpg'
                 res.innerHTML = `${genero} de ${idade} anos.`
             }
             else {
-                imag.src = 'idosa.jpg'
+                imag.src = 'imagens/idosa.jpg'
                 res.innerHTML = `${genero} de ${idade} anos.`
             }
         }
