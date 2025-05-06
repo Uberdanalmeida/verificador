@@ -1,6 +1,8 @@
 body {
     background-color: rgba(0, 0, 0, 0.734);
+    overflow: hidden;
 }
+
 #verif {
     text-align: center;
     height: 500px;
@@ -22,7 +24,7 @@ h1 {
     }
     
     #verif {
-        height: 500px;
+        height: 550px;
         width: 100%;
         text-align: center;
         background-color: white;
