@@ -1,4 +1,4 @@
-![Verificador de idade](imagens/verificadorDeIdade.png)
+![Verificador de idade](imagens/verificador.png)
 
 # Verificador de Idade
 
